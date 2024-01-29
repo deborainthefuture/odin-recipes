@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'kalamregular';
-    src: url('/fonts/kalam/font/kalam-regular-webfont.woff2') format('woff2'),
-         url('/fonts/kalam/font/kalam-regular-webfont.woff') format('woff');
+    src: url('font/kalam-bold-webfont.woff2') format('woff2'),
+         url('font/kalam-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
     background-color: honeydew;
-    font-family: "kalamregular";
+    font-family: "kalamregular", sans-serif;
     max-width: 100%;
     height: 100vh;
     margin: 0 auto;
@@ -16,13 +16,14 @@ body {
 
 h1 {
     color: rgba(184, 134, 11, 0.9);
-    font-size: 48px;
+    font-size: 45px;
     text-align: center;
-    margin: 8px;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .logo {
-    max-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
 }
 
@@ -35,11 +36,11 @@ ul {
     list-style-type: none;
     margin: 0 auto;
     padding-left: 0;
-    max-width: 17%;
+    max-width: 19%;
 }
 
 ul li {
-    background-image: url("/icons8-shields.png");
+    background-image: url("icons8-shields.png");
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 1.6rem 1.6rem;
@@ -50,6 +51,7 @@ ul li {
 
 a {
     color:  rgb(221, 169, 36);
+    text-decoration: none;
 }
 
 a:hover {
